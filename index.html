@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Web Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
   <!-- header part -->
-  <header>
+  <header class="side-header">
     <nav>
       <a href="./index.html">
         <b><span class="web">Web</span> Studio</b>
       </a>
-      <ul>
+      <ul class="site-nav">
         <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
+        <li><a href="./portfolio.html">Портфолио</a></li>
         <li><a href="">Контакты</a></li>
       </ul>
     </nav>
@@ -26,19 +29,17 @@
       <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
     </ul>
   </header>
-  <hr />
   <!-- baner  -->
   <main>
-    <section>
-      <h1>
-        эффективные решения <br />
-        для вашего бизнеса
+    <section class="baner">
+      <h1 class="baner-text">
+        эффективные решения для вашего бизнеса
       </h1>
       <a href="">Заказать услугу</a>
     </section>
     <hr />
     <!-- quality part -->
-    <section>
+    <section class="quality">
       <ul>
         <li>
           <img src="./img/antenna1.svg" alt="спуниковая антена">
@@ -62,7 +63,7 @@
         </li>
       </ul>
     </section>
-    <hr />
+    <hr class="line" />
     <!-- what are we do -->
     <section>
       <h2>Чем мы занимаемся</h2>
@@ -94,7 +95,7 @@
       <ul>
         <li>
           <a href=""><img src="./img/img1.jpg" alt="John Smith" width="270"></a>
-          <h3>John Smith</h3>
+          <h3>Николай Кучеренко</h3>
           <h4>Product Designer</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -105,7 +106,7 @@
         </li>
         <li>
           <a href=""><img src="./img/img2.jpg" alt="Marta Stewart" width="270"></a>
-          <h3>Marta Stewart</h3>
+          <h3>Ольга Иванова</h3>
           <h4>Frontend Developer</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -116,7 +117,7 @@
         </li>
         <li>
           <a href=""><img src="./img/img3.jpg" alt="Robert Jakis" width="270"></a>
-          <h3>Robert Jakis</h3>
+          <h3>Андрей Шевченко</h3>
           <h4>Marketing</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -127,7 +128,7 @@
         </li>
         <li>
           <a href=""><img src="./img/img4.jpg" alt="Martin Doe" width="270"></a>
-          <h3>Martin Doe</h3>
+          <h3>Иван Николаев</h3>
           <h4>UI Designer</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -178,8 +179,8 @@
     </div>
     <div>
       <b>Подпишитесь на рассылку</b>
-      <input type="mail" name="feedback" id="a.pat@meta.ua" />
-      <button type="mail">Подписаться</button>
+      <input type="text" name="feedback" id="info@devstudio.com" />
+      <button>Подписаться</button>
     </div>
     <hr />
     <span>2020 | Developed by GoIT Students</span>
