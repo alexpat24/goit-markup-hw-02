@@ -1,13 +1,4 @@
-body{ 
-background-color: #e5e5e5;
 
-}
-header { 
-background-color: #ffffff;
-width:1600px;
-font-family: 'Roboto', sans-serif;
- 
-}
 /* цвет текста основной #212121; */
 /* цвет текста вторичный #757575; */
 /* белый #ffffff; */
@@ -15,8 +6,34 @@ font-family: 'Roboto', sans-serif;
 /* фон(без акцента) #F5F4FA */
 
 /* img overlay */
+
+
+
+:root{
+ --primary-text-color:#757575;
+ --title-text-color:#212121;
+ --accent-text-color: #2196F3;
+ --primary-white-color:#ffffff;
+}
+
+body{ 
+background-color: #ffffff;
+width:1600px;
+margin-left:100px;
+}
+header { 
+background-color: #ffffff;
+width:1600px;
+font-family: 'Roboto', sans-serif;
+ 
+}
+/* logo */
 .web {
 font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
 color: #2196F3;
 width: 153px;
 height: 31px;
@@ -25,45 +42,132 @@ top: 24px;
 
 }
 .studio {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
 color: #000000;
 width: 153px;
 height: 31px;
 left: 215px;
 top: 24px;
+}
+.studio:hover{
+    color:#2196F3 ;
+}
 
+.link {
+color: #212121;
 } 
-.baner { 
+ .link:hover,
+ .link:focus{
+    color: #2196F3;
+}
+.site-nav .curent{
+     color: var(--accent-text-color);
+ }
+.site-nav {
+    width:1600px;}
+/* menu  */
+
+main {
+background-color: #ffffff;
+width:1600px;
+font-family: 'Roboto', sans-serif;    
+}
+.baner{ 
 background: #474858; 
 height:600px; 
 width:1600px; 
 font-family: 'Roboto', sans-serif; 
 }
-.baner-text {
+.baner-text{
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
 text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+color: var(--primary-white-color);
 }
-.line {
+.baner-button{ 
+color: var(--primary-white-color);
+background-color: var(--accent-text-color);
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
+/* .quality-img{
+    color: var(--primary-text-color);
+}
+.quality-img:hover,
+.quality-img:focus{
+    color: var(--accent-text-color);
+} */
+ /* .line {
 position: absolute;
 width: 1170px;
 height: 0px;
 left: 215px;
-top: 1119px;
-
+top: 1119px; 
 border: 1px solid #ECECEC;
-}
-.site-nav {
-    width:1600px
+} */
 
-}
+/* what are we do */
 ul{
     list-style: none;
 }
 .ghost{
     display: none
+}
+.section-title{
+    color: var(--title-text-color);
+
+}
+.title-styie{
+    color: var(--title-text-color);
+}
+.title-styie:hover,
+.title-styie:focus{
+    color: var(--accent-text-color);
+}
+/* our team */
+/* .sosial-net{
+    color: var(--primary-text-color);
+}
+.sosial-net:hover,
+.sosial-net:focus{
+color:var(--accent-text-color) 
+} */
+/* footer */
+footer{
+    background-color: #2F303A;
+}
+
+.web-down{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
+}
+.studio-down{
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #FFFFFF;
+}
+.button{ 
+color: var(--primary-white-color);
+background-color: var(--accent-text-color);
 }

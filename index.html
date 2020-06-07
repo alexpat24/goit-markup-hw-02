@@ -12,15 +12,15 @@
 
 <body>
   <!-- header part -->
-  <header class="side-header">
+  <header>
     <nav>
-      <a href="./index.html">
-        <b><span class="web">Web</span> Studio</b>
+      <a href="./index.html" class="link">
+        <span class="web">Web</span> <span class="studio">Studio</span>
       </a>
-      <ul class="site-nav">
-        <li><a href="">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+      <ul class="site-nav list">
+        <li><a href="./index.html" class="link curent">Студия</a></li>
+        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+        <li><a href="" class="link">Контакты</a></li>
       </ul>
     </nav>
     <!-- contacts -->
@@ -33,57 +33,56 @@
   <main>
     <section class="baner">
       <h1 class="baner-text">
-        эффективные решения для вашего бизнеса
+        ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
       </h1>
-      <a href="">Заказать услугу</a>
+      <button class="baner-button">Заказать услугу</button>
     </section>
-    <hr />
     <!-- quality part -->
     <section class="quality">
       <ul>
         <li>
-          <img src="./img/antenna1.svg" alt="спуниковая антена">
-          <h3>Внимание к деталям</h3>
+          <img src="./img/antenna1.svg" alt="спуниковая антена" class="quality-img">
+          <h3 class="section-title">Внимание к деталям</h3>
           <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
         <li>
           <img src="./img/clock1.svg" alt="часы">
-          <h3>Пунктуальность</h3>
+          <h3 class="section-title">Пунктуальность</h3>
           <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
         <li>
           <img src="./img/diagram1.svg" alt="диаграмма">
-          <h3>Планирование</h3>
+          <h3 class="section-title">Планирование</h3>
           <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
         <li>
           <img src="./img/astronaut1.svg" alt="космонавт">
-          <h3>Современные технологии</h3>
+          <h3 class="section-title">Современные технологии</h3>
           <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
     </section>
-    <hr class="line" />
+    <!-- <hr class="line" /> -->
     <!-- what are we do -->
     <section>
-      <h2>Чем мы занимаемся</h2>
+      <h2 class="section-title">Чем мы занимаемся</h2>
       <ul>
         <li>
           <a href="">
             <img src="./img/d-top.jpg" alt="десктоп" width="370">
-            <h3>Десктопные приложения</h3>
+            <h3 class="title-styie">Десктопные приложения</h3>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./img/smartphon.jpg" alt="смартфон" width="370">
-            <h3>Мобильные приложения</h3>
+            <h3 class="title-styie">Мобильные приложения</h3>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./img/monitor.jpg" alt="монитор" width="370">
-            <h3>Дизайнерские решения</h3>
+            <h3 class="title-styie">Дизайнерские решения</h3>
           </a>
         </li>
       </ul>
@@ -91,11 +90,11 @@
     <hr />
     <!-- our team -->
     <section>
-      <h2>Наша команда</h2>
+      <h2 class="section-title">Наша команда</h2>
       <ul>
         <li>
           <a href=""><img src="./img/img1.jpg" alt="John Smith" width="270"></a>
-          <h3>Николай Кучеренко</h3>
+          <h3 class="section-title">Николай Кучеренко</h3>
           <h4>Product Designer</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -106,7 +105,7 @@
         </li>
         <li>
           <a href=""><img src="./img/img2.jpg" alt="Marta Stewart" width="270"></a>
-          <h3>Ольга Иванова</h3>
+          <h3 class="section-title">Ольга Иванова</h3>
           <h4>Frontend Developer</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -117,7 +116,7 @@
         </li>
         <li>
           <a href=""><img src="./img/img3.jpg" alt="Robert Jakis" width="270"></a>
-          <h3>Андрей Шевченко</h3>
+          <h3 class="section-title">Андрей Шевченко</h3>
           <h4>Marketing</h4>
           <ul>
             <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
@@ -128,13 +127,13 @@
         </li>
         <li>
           <a href=""><img src="./img/img4.jpg" alt="Martin Doe" width="270"></a>
-          <h3>Иван Николаев</h3>
+          <h3 class="section-title">Иван Николаев</h3>
           <h4>UI Designer</h4>
           <ul>
-            <li><a href=""><img src="./img/instagram.svg" alt="instagram"></a></li>
-            <li><a href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-            <li><a href=""><img src="./img/facebook.svg" alt="facebook"></a></li>
-            <li><a href=""><img src="./img/LinkedIn.svg" alt="LinkedIn"></a></li>
+            <li><a href="" class="sosial-net"><img src="./img/instagram.svg" alt="instagram"></a></li>
+            <li><a href="" class="sosial-net"><img src="./img/twitter.svg" alt="twitter"></a></li>
+            <li><a href="" class="sosial-net"><img src="./img/facebook.svg" alt="facebook"></a></li>
+            <li><a href="" class="sosial-net"><img src="./img/LinkedIn.svg" alt="LinkedIn"></a></li>
           </ul>
         </li>
       </ul>
@@ -143,7 +142,7 @@
     <!-- regular customers -->
     <section>
       <a href="">
-        <h2>Постоянные клиенты</h2>
+        <h2 class="section-title">Постоянные клиенты</h2>
       </a>
       <ul>
         <li><a href=""><img src="./img/logo1.svg" alt="YA and CO"></a></li>
@@ -160,7 +159,7 @@
   <footer>
 
     <a href="./index.html">
-      <b><span class="web">Web</span> Studio</b>
+      <span class="web-down">Web</span> <span class="studio-down">Studio</span>
     </a>
     <address>
       <p>г. Киев, пр-т Леси Украинки, 26</p>
@@ -180,9 +179,8 @@
     <div>
       <b>Подпишитесь на рассылку</b>
       <input type="text" name="feedback" id="info@devstudio.com" />
-      <button>Подписаться</button>
+      <button class="button">Подписаться</button>
     </div>
-    <hr />
     <span>2020 | Developed by GoIT Students</span>
   </footer>
 </body>
