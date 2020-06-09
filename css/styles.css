@@ -269,14 +269,15 @@ footer{
     font-family: Roboto;
     font-size: 18px;
     line-height: 1.56;
+    text-indent: 20px;
 
     color: var(--primary-white-color);
     background: #2196F3;
-
     width: 370px;
     height: 294px;
     left: 215px;
     top: 262px;
+
 }
 .portfolio-link{
     font-family: Roboto;
