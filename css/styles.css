@@ -16,6 +16,10 @@
  --primary-white-color:#ffffff;
 }
 
+html{
+    box-sizing: border-box;
+}
+
 body{ 
     background-color: #ffffff;
     margin-left:10px;
